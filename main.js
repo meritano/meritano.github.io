@@ -8,6 +8,14 @@ $(function(){
           	$(this).css({left:"65px"});
           }
           moved = !moved;
+        },
+        click:function(){
+        	if(moved === true) {
+          	$(this).css({left:"0px"});
+          } else {
+          	$(this).css({left:"65px"});
+          }
+          moved = !moved;
         }
     });
 });
