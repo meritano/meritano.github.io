@@ -1,0 +1,15 @@
+.moving-button{
+    position:absolute;
+    /*top:10px;*/
+    left:0px;
+}
+
+.static-button{
+    position:absolute;
+    /*top:10px;*/
+    left:30px;
+}
+
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
